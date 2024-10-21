@@ -1,0 +1,158 @@
+body {
+    font-family: "Lato";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+    height: 100vh;
+
+    & nav {
+        height: 8%;
+    }
+
+    & .container {
+        background-color: white;
+    }
+
+    & .hero {
+        color: white;
+        width: 100%;
+        height: 92%;
+        padding: 10vw;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, .4), rgba(0, 0, 0, .8)),
+        url(../images/Landingpage.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        margin-top: 1vw;
+
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 30px;
+
+        & h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        & h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+    }
+}
+
+.container-fluid {
+    text-align: center;
+    font-size: 1.2rem;
+
+    & h1 {
+        font-weight: 700;
+    }
+}
+
+.apresentacao .row {
+    & div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+
+        padding: 3rem;
+    }
+
+    & .imgrobo {
+        height: 70vh;
+
+        background-image: url(../images/robo.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50%;
+    }
+}
+
+.robocup .row {
+    background-color: rgb(14, 14, 14);
+    color: white;
+    padding: 3rem;
+    & div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        padding: 3rem;
+    }
+
+    & .imgrobocup {
+        height: 60vh;
+        background-image: url(../images/robocup.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50%;
+    }
+}
+
+.arma .row{
+    background-color: rgb(14, 14, 14);
+    color: white;
+    padding: 3rem;
+
+    & div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        padding: 3rem;
+    }
+
+    & .imgarma {
+        height: 60vh;
+        background-image: url(../images/Arma.JPG);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50%;
+    }
+}
+
+.next .row{
+    padding: 3rem;
+
+    & div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        padding: 3rem;
+    }
+
+    & .imgnext {
+        height: 70vh;
+
+        background-image: url(../images/next.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50%;
+    }
+}
+
+iframe {
+    padding: 5px;
+}
+
+.contato {
+    background-color: rgb(14, 14, 14);
+    color: white;
+}
+
